@@ -1,0 +1,26 @@
+
+---
+
+## 5. Create `pyproject.toml`
+
+```toml
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sumcalc"
+version = "0.1.0"
+description = "A simple Python package to sum two numbers."
+authors = [
+    { name="Your Name", email="your.email@example.com" }
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+keywords = ["sum", "add", "math", "example"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
